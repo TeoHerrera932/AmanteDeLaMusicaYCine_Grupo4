@@ -16,7 +16,7 @@ public class Cancion extends Medio{
         this.album = album;
     }
     public Cancion(String clave) {
-        this(clave, null, null, null, null, 0,null);
+        this(clave, null, null, null, null, null, 0,null);
     }
     public String getInterprete() {
         return interprete;
@@ -38,7 +38,6 @@ public class Cancion extends Medio{
     }
     @Override
     public String toString() {
-        return super.toString() + ", "+ interprete + ", " + autoLetra + ", "+
-                autorMusica + ", "+ album +", "+ disquera;
+        return super.toString() + ", "+ interprete + ", "+ album ;
     }
 }

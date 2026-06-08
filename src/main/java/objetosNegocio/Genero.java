@@ -1,4 +1,7 @@
 package objetosNegocio;
+
+import java.util.Objects;
+
 public class Genero {
     private String cveGenero;
     private String nombre;
@@ -33,29 +36,33 @@ public class Genero {
     public void setTipoMedio(char tipoMedio) {
         this.tipoMedio = tipoMedio;
     }
+    //Corrección de sintaxis
     @Override
     public boolean equals(Object obj) {
-        //si el parametro es nulo regresa falso
-        if (this == null){
+        // Si el parámetro es nulo regresa falso
+        if (obj == null) {
             return false;
         }
-        //Si el parametro no es de la clase Genero regresa falso
-        if (getClass() != obj.getClass()){
+
+        // Si no es de la clase Genero regresa falso
+        if (getClass() != obj.getClass()) {
             return false;
         }
+
         final Genero other = (Genero) obj;
-        //Regresa verdader si las dos claves son iguales, falso en caso contrario
-        if ((this.cveGenero == null)? (other.cveGenero != null) :
-                !this.cveGenero.equals(other.cveGenero){
-                return false;
+
+        // Compara las claves (maneja nulls correctamente)
+        if (!Objects.equals(this.cveGenero, other.cveGenero)) {
+            return false;
         }
+
         return true;
     }
     @Override
     public int hashCode() {
         int hash = 7;
         //Calcula el c;odigo hash para este genero en función del codigo hash de la clave
-        hash = 71 * hash +(this.cveGenero == null? this.cveGenero.hashCode():0);
+        hash = 71 * hash + (this.cveGenero != null ? this.cveGenero.hashCode() : 0);
         return hash;
     }
     @Override

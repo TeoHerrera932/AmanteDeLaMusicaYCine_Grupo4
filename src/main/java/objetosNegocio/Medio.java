@@ -1,6 +1,8 @@
 package objetosNegocio;
 import objetosServicio.Fecha;
 
+import java.util.Objects;
+
 public class Medio {
     protected String clave;
     protected String titulo;
@@ -52,16 +54,15 @@ public class Medio {
     }
     @Override
     public boolean equals(Object obj) {
-        //Si el parametro es nulo regresa falso
-        if (obj == null){
+        if (obj == null) {
             return false;
         }
-        //Si el parametro no es de la clase medio regresa falso
         if (getClass() != obj.getClass()) {
             return false;
         }
         final Medio other = (Medio) obj;
-        if ((this.clave == null) ? (other.clave != null) : !this.clave.equals(other.clave){
+
+        if (!Objects.equals(this.clave, other.clave)) {
             return false;
         }
         return true;
