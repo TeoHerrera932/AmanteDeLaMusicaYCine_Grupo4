@@ -1,0 +1,16 @@
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\excepciones\FachadaException.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\excepciones\PersistenciaException.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\fachadas\FachadaArreglos.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\interfaces\IFachada.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\objetosNegocio\Cancion.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\objetosNegocio\Genero.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\objetosNegocio\Medio.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\objetosNegocio\Pelicula.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\objetosServicio\Fecha.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\objetosServicio\Periodo.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\persistencia\Canciones.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\persistencia\Generos.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\persistencia\Medios.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\persistencia\Peliculas.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\pruebas\Prueba1.java
+C:\Progs_IntelliJ\AmanteDeLaMusicaYCine_Grupo4\src\main\java\pruebas\Prueba3.java
